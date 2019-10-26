@@ -1,0 +1,59 @@
+* {
+    font-family: Arial;
+}
+
+.UIBox {
+    width: 360px;
+    height: 250px;
+    padding: 15px 20px;
+
+    background-color: rgba(243, 36, 140, 0.8);
+    display: flex;
+    justify-content: space-between;
+
+    flex-direction: column;
+}
+
+.box {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.numberDiv  {
+    font-size: 25px;
+}
+
+
+#UI {
+    position: absolute;
+    text-align: center;
+}
+
+#UIHeader {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-radius: 25px;
+    cursor: move;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgb(243, 36, 140);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+#Generate {
+    background-color: white;
+    color: rgb(243, 36, 140);
+}
+
+#Generate:hover {
+    background-color: rgb(243, 36, 140);
+    color: white;
+}
+
+#Generate:active  {
+    background-color: rgb(243, 36, 140);
+    color: white;
+}
